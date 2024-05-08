@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/travharan/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/travharan/ros2_ws/src/install/my_cpp_pkg
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.655s] -- The CXX compiler identification is GNU 11.4.0
+[0.686s] -- Detecting C compiler ABI info
+[0.890s] -- Detecting C compiler ABI info - done
+[0.914s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.915s] -- Detecting C compile features
+[0.920s] -- Detecting C compile features - done
+[0.936s] -- Detecting CXX compiler ABI info
+[1.075s] -- Detecting CXX compiler ABI info - done
+[1.083s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.084s] -- Detecting CXX compile features
+[1.085s] -- Detecting CXX compile features - done
+[1.116s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.520s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.646s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.679s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.944s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.953s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.151s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.190s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.287s] -- Looking for pthread.h
+[2.439s] -- Looking for pthread.h - found
+[2.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.600s] -- Found Threads: TRUE  
+[2.922s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.242s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.415s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.415s] -- Configured cppcheck include dirs: 
+[3.415s] -- Configured cppcheck exclude dirs and/or files: 
+[3.416s] -- Added test 'lint_cmake' to check CMake code style
+[3.418s] -- Added test 'uncrustify' to check C / C++ code style
+[3.419s] -- Configured uncrustify additional arguments: 
+[3.421s] -- Added test 'xmllint' to check XML markup files
+[3.435s] -- Configuring done
+[3.461s] -- Generating done
+[3.466s] -- Build files have been written to: /home/travharan/ros2_ws/src/build/my_cpp_pkg
+[3.477s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/travharan/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/travharan/ros2_ws/src/install/my_cpp_pkg
+[3.482s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[3.604s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.644s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[14.088s] [ 75%] [32m[1mLinking CXX executable cpp_node[0m
+[14.357s] [ 75%] Built target cpp_node
+[16.128s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[16.540s] [100%] Built target robot_news_station
+[16.560s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[16.707s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/travharan/ros2_ws/src/build/my_cpp_pkg
+[16.727s] -- Install configuration: ""
+[16.729s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[16.730s] -- Set runtime path of "/home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[16.731s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[16.739s] -- Set runtime path of "/home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[16.740s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[16.742s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[16.743s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[16.744s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[16.744s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[16.745s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[16.745s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[16.746s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[16.749s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[16.752s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[16.752s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[16.754s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[16.754s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[16.758s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[16.758s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[16.777s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/travharan/ros2_ws/src/build/my_cpp_pkg
