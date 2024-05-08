@@ -116,3 +116,9 @@ int main(int argc, char **argv)
 
     `ros2 run turtlesim turtle_teleop_key`
 
+### list ros topics
+`ros2 topic list`
+
+### print topic output
+`ros2 topic echo <topic_name>`
+

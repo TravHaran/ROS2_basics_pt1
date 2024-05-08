@@ -1,0 +1,40 @@
+[0.967s] Invoking command in '/home/travharan/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/travharan/ros2_ws/build/my_py_pkg/build
+[1.399s] running develop
+[1.405s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.405s]   warnings.warn(
+[1.636s] Removing /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.671s] Invoked command in '/home/travharan/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/travharan/ros2_ws/build/my_py_pkg/build
+[1.672s] Invoking command in '/home/travharan/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/travharan/ros2_ws/build/my_py_pkg/build install --record /home/travharan/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.003s] running egg_info
+[2.005s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.005s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.006s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.006s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.007s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.010s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.012s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.013s] running build
+[2.013s] running build_py
+[2.013s] copying my_py_pkg/my_first_node.py -> /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.015s] copying my_py_pkg/oop_node_template.py -> /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.016s] copying my_py_pkg/robot_news_station.py -> /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.016s] running install
+[2.017s] running install_lib
+[2.018s] creating /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.018s] copying /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.019s] copying /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.019s] copying /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/oop_node_template.py -> /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.020s] copying /home/travharan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.020s] byte-compiling /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.022s] byte-compiling /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.022s] byte-compiling /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/oop_node_template.py to oop_node_template.cpython-310.pyc
+[2.023s] byte-compiling /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.023s] running install_data
+[2.024s] copying resource/my_py_pkg -> /home/travharan/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.024s] copying package.xml -> /home/travharan/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.024s] running install_egg_info
+[2.027s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.029s] running install_scripts
+[2.053s] Installing py_node script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.054s] writing list of installed files to '/home/travharan/ros2_ws/build/my_py_pkg/install.log'
+[2.086s] Invoked command in '/home/travharan/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/travharan/ros2_ws/build/my_py_pkg/build install --record /home/travharan/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
