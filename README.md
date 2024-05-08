@@ -3,7 +3,20 @@
 ## Core Concepts
 - ROS2 Installation, Workspace, Packages, …
 - ROS2 Nodes
+    - Subprograms in your application, responsible for only one thing
+    - Combined into a graph
+    - Communicate with each other through topics, services, and parameters
+    - Benefits:
+        - Reduce code complexity
+        - Fault tolerance
+        - Can be written in Python, C++, etc.
 - ROS2 Topics
+    - A topic is a named bus over which nodes exchange messages
+    - Unidirectional data stream (publisher/subscriber)
+    - Anonymous
+    - A topic has a message type
+    - Can be written in Python, C++, .. directly inside ROS nodes
+    - A node can have many publishers/subscriber for many different topics
 - ROS2 Services
 - ROS2 Custom Messages
 - ROS2 Parameters
