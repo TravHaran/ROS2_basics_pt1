@@ -85,7 +85,7 @@ int main(int argc, char **argv)
 ### list active ros nodes
 `ros2 node list`
 
-### get active rose node info
+### get specific node info
 `ros2 node info <active_node_name>`
 
 ### build all packages:
@@ -122,3 +122,16 @@ int main(int argc, char **argv)
 ### print topic output
 `ros2 topic echo <topic_name>`
 
+### get specific topic info
+`ros2 topic info <topic_name>`
+
+### get publishing frequency of topic
+`ros2 topic hz <topic_name>`
+
+### get topic bandwidth
+`ros2 topic bw <topic_name>`
+
+### publish topic from command line
+- ex: 
+`ros2 topic pub -r 10 /robot_news example_interfaces/msg/String "{data: 'hello from terminal'}" 
+`
