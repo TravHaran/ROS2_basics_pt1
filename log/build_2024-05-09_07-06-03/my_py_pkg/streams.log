@@ -1,0 +1,24 @@
+[0.999s] Invoking command in '/home/travharan/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/travharan/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[1.496s] running develop
+[1.734s] running egg_info
+[1.735s] writing my_py_pkg.egg-info/PKG-INFO
+[1.736s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.736s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.737s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.737s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.739s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.741s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.743s] running build_ext
+[1.743s] Creating /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.744s] Installing add_two_ints_server script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.744s] Installing number_counter script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.744s] Installing number_publisher script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.745s] Installing py_node script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.745s] Installing robot_news_station script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.745s] Installing smartphone script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.746s] 
+[1.746s] Installed /home/travharan/ros2_ws/build/my_py_pkg
+[1.750s] running symlink_data
+[1.750s] symbolically linking /home/travharan/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/travharan/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.751s] symbolically linking /home/travharan/ros2_ws/build/my_py_pkg/package.xml -> /home/travharan/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.792s] Invoked command in '/home/travharan/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/travharan/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

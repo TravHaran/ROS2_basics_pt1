@@ -28,6 +28,11 @@
         - A publisher and subscriber must publish/subscribe to the same topic name, and use the same data type. Those are the 2 conditions for successful topic communication
         - Then once you’ve added some publishers/subscribers in your nodes, just launch your nodes, and the communication starts! You can debug them using the “ros2” command line tool, as well as rqt.
 - ROS2 Services
+    - is a client/server system
+    - can be synchronous or asynchronous
+    - one message type for reques, one message type for response
+    - can be written in python, c++, ... directly inside ROS nodes
+    - a service server can only exist once, but can have many clients
 - ROS2 Custom Messages
 - ROS2 Parameters
 - ROS2 Launch Files
@@ -148,3 +153,10 @@ int main(int argc, char **argv)
 `
 ### get interface info
 `ros2 interface show <interface_name>`
+
+### list services
+`ros2 service list`
+
+### make service call from command line
+`ros2 service call <service_name> <service_datatype> <request>`
+- ex: `ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 3, b: 4}"`
