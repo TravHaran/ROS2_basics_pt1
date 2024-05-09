@@ -13,6 +13,8 @@ find_package(example_interfaces REQUIRED)
 add_executable(cpp_node src/my_first_node.cpp)
 add_executable(robot_news_station src/robot_news_station.cpp)
 add_executable(smartphone src/smartphone.cpp)
+add_executable(number_publisher src/number_publisher.cpp)
+add_executable(number_counter src/number_counter.cpp)
 
 
 if(BUILD_TESTING)
@@ -30,11 +32,15 @@ endif()
 ament_target_dependencies(cpp_node rclcpp)
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 ament_target_dependencies(smartphone rclcpp example_interfaces)
+ament_target_dependencies(number_publisher rclcpp example_interfaces)
+ament_target_dependencies(number_counter rclcpp example_interfaces)
 
 install(TARGETS 
   cpp_node
   robot_news_station
   smartphone
+  number_publisher
+  number_counter
   DESTINATION lib/${PROJECT_NAME}
 )
 

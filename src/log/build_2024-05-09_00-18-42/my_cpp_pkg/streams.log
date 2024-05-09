@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[0.231s] [ 20%] Built target cpp_node
+[0.254s] [ 40%] Built target robot_news_station
+[0.300s] [ 60%] Built target smartphone
+[0.330s] [ 70%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.392s] [ 80%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[14.248s] [ 90%] [32m[1mLinking CXX executable number_publisher[0m
+[14.910s] [ 90%] Built target number_publisher
+[22.810s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[23.673s] [100%] Built target number_counter
+[23.720s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[23.878s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/travharan/ros2_ws/src/build/my_cpp_pkg
+[23.911s] -- Install configuration: ""
+[23.912s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[23.913s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[23.913s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[23.913s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[23.918s] -- Set runtime path of "/home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[23.918s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[23.926s] -- Set runtime path of "/home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[23.926s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[23.953s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[23.956s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[23.956s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[23.956s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[23.957s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[23.957s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[23.957s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[23.957s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[23.957s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[23.957s] -- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[23.958s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[23.958s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[23.958s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[23.958s] -- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[23.961s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/travharan/ros2_ws/src/build/my_cpp_pkg

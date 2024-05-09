@@ -10,6 +10,12 @@
         - Reduce code complexity
         - Fault tolerance
         - Can be written in Python, C++, etc.
+    - To implement nodes in your ROS2 application:
+        - Before creating your first node you need to: 
+            - create a ROS2 workspace and source it
+            - create a (python/cpp) package
+        - Then, you write your node using the appropriate ROS2 client library: rclpy for Python, and rclcpp for Cpp. Both libraries will provide the same core functionalities.
+        - After writing the node, you compile it, and you re-source your environment in order to use it. Nodes are compiled (only for Cpp), and installed (for both Python and Cpp), inside the install/ folder of your ROS2 workspace. You can directly execute them from here, or by using the command line tool `ros2 run <package> <executable>`.
 - ROS2 Topics
     - A topic is a named bus over which nodes exchange messages
     - Unidirectional data stream (publisher/subscriber)
@@ -17,6 +23,10 @@
     - A topic has a message type
     - Can be written in Python, C++, .. directly inside ROS nodes
     - A node can have many publishers/subscriber for many different topics
+    - To implement topics in your ROS2 application:
+        - First create a node (or start from an existing one), then inside your node you can create any number of publishers/subscribers
+        - A publisher and subscriber must publish/subscribe to the same topic name, and use the same data type. Those are the 2 conditions for successful topic communication
+        - Then once you’ve added some publishers/subscribers in your nodes, just launch your nodes, and the communication starts! You can debug them using the “ros2” command line tool, as well as rqt.
 - ROS2 Services
 - ROS2 Custom Messages
 - ROS2 Parameters
@@ -132,6 +142,9 @@ int main(int argc, char **argv)
 `ros2 topic bw <topic_name>`
 
 ### publish topic from command line
+`ros2 topic pub -r <dead_queue_size> <topic_name> <data_type> <message>`
 - ex: 
 `ros2 topic pub -r 10 /robot_news example_interfaces/msg/String "{data: 'hello from terminal'}" 
 `
+### get interface info
+`ros2 interface show <interface_name>`
