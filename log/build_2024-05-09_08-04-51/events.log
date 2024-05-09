@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000979] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001086] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.002143] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.104485] (-) TimerEvent: {}
+[0.208995] (-) TimerEvent: {}
+[0.317105] (-) TimerEvent: {}
+[0.430855] (-) TimerEvent: {}
+[0.536867] (-) TimerEvent: {}
+[0.637673] (-) TimerEvent: {}
+[0.738722] (-) TimerEvent: {}
+[0.842238] (-) TimerEvent: {}
+[0.945690] (-) TimerEvent: {}
+[1.046922] (-) TimerEvent: {}
+[1.105425] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/travharan/ros2_ws/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/travharan/ros2_ws/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'travharan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/travharan', 'OLDPWD': '/home/travharan/ros2_ws/src/my_py_pkg/my_py_pkg', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1155', 'SYSTEMD_EXEC_PID': '1305', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2283', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/travharan/ros2_ws/install:/home/travharan/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'travharan', 'JOURNAL_STREAM': '8:21486', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'travharan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/travharan-vm:@/tmp/.ICE-unix/1280,unix/travharan-vm:/tmp/.ICE-unix/1280', 'INVOCATION_ID': '10b1eec0c97d45d29589244e23dade23', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GEBAN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/travharan/ros2_ws/src/install/my_cpp_pkg:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7d776757-6bd5-4733-ad05-c04acda334cd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/travharan/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/travharan/ros2_ws/build/my_py_pkg/prefix_override:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/travharan/ros2_ws/build/my_py_pkg:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/travharan/ros2_ws/src/install/my_cpp_pkg:/home/travharan/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.147277] (-) TimerEvent: {}
+[1.251226] (-) TimerEvent: {}
+[1.358086] (-) TimerEvent: {}
+[1.478879] (-) TimerEvent: {}
+[1.579928] (-) TimerEvent: {}
+[1.663396] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.690109] (-) TimerEvent: {}
+[1.800023] (-) TimerEvent: {}
+[1.900556] (-) TimerEvent: {}
+[1.933026] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.933618] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[1.934402] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.937315] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[1.937455] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[1.937628] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[1.938476] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.941095] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.943237] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.943611] (my_py_pkg) StdoutLine: {'line': b'Creating /home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[1.944898] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.945129] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.945581] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.945810] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.946033] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.947324] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.947694] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.948397] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/travharan/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.948658] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[1.948742] (my_py_pkg) StdoutLine: {'line': b'Installed /home/travharan/ros2_ws/build/my_py_pkg\n'}
+[1.948820] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[1.993354] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.003836] (-) TimerEvent: {}
+[2.021230] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.022942] (-) EventReactorShutdown: {}
