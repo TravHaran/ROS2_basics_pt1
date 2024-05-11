@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.003056] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.003184] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.003242] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.013827] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.014079] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.015167] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/travharan/ros2_ws/src/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/travharan/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'travharan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/travharan'), ('OLDPWD', '/home/travharan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1095'), ('SYSTEMD_EXEC_PID', '1247'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2079'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/travharan/ros2_ws/src/install:/home/travharan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'travharan'), ('JOURNAL_STREAM', '8:22407'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'travharan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/travharan-vm:@/tmp/.ICE-unix/1215,unix/travharan-vm:/tmp/.ICE-unix/1215'), ('INVOCATION_ID', '49a6da7baac9419fb82468ef54cc980b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5V30M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1a53b6fd-dd02-4282-9160-f68231b5da0d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/travharan/ros2_ws/src/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/travharan/ros2_ws/build/my_py_pkg:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/travharan/ros2_ws/install/my_cpp_pkg:/home/travharan/ros2_ws/src/install/my_cpp_pkg:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.096120] (-) TimerEvent: {}
+[0.110337] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.206848] (-) TimerEvent: {}
+[0.310581] (-) TimerEvent: {}
+[0.325876] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.385746] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.392858] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.403973] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.416065] (-) TimerEvent: {}
+[0.423699] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.451680] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.516706] (-) TimerEvent: {}
+[0.556504] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.561558] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.619722] (-) TimerEvent: {}
+[0.726029] (-) TimerEvent: {}
+[0.740981] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.827244] (-) TimerEvent: {}
+[0.927855] (-) TimerEvent: {}
+[1.033471] (-) TimerEvent: {}
+[1.074588] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.143138] (-) TimerEvent: {}
+[1.253584] (-) TimerEvent: {}
+[1.325251] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.362640] (-) TimerEvent: {}
+[1.472189] (-) TimerEvent: {}
+[1.493715] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.494541] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.494852] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.502753] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.505212] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.505423] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.506623] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.508622] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.572335] (-) TimerEvent: {}
+[1.618175] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.629181] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/travharan/ros2_ws/src/build/my_cpp_pkg\n'}
+[1.675027] (-) TimerEvent: {}
+[1.701201] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[1.752243] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[1.752800] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] Built target robot_news_station\n'}
+[1.780779] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[1.780971] (-) TimerEvent: {}
+[1.807259] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target smartphone\n'}
+[1.838271] (my_cpp_pkg) StdoutLine: {'line': b'[ 37%] Built target cpp_node\n'}
+[1.850848] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_publisher\x1b[0m\n'}
+[1.891200] (-) TimerEvent: {}
+[1.901509] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_counter\x1b[0m\n'}
+[1.943583] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[1.961267] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target number_counter\n'}
+[1.978691] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[1.986616] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[2.001262] (-) TimerEvent: {}
+[2.026906] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_server\n'}
+[2.051819] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target add_two_ints_client_no_oop\n'}
+[2.093765] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[2.108809] (-) TimerEvent: {}
+[2.214326] (-) TimerEvent: {}
+[2.318558] (-) TimerEvent: {}
+[2.419157] (-) TimerEvent: {}
+[2.530756] (-) TimerEvent: {}
+[2.640387] (-) TimerEvent: {}
+[2.741859] (-) TimerEvent: {}
+[2.848189] (-) TimerEvent: {}
+[2.961883] (-) TimerEvent: {}
+[3.069926] (-) TimerEvent: {}
+[3.177161] (-) TimerEvent: {}
+[3.280154] (-) TimerEvent: {}
+[3.382712] (-) TimerEvent: {}
+[3.483481] (-) TimerEvent: {}
+[3.586629] (-) TimerEvent: {}
+[3.688100] (-) TimerEvent: {}
+[3.788918] (-) TimerEvent: {}
+[3.892409] (-) TimerEvent: {}
+[3.994569] (-) TimerEvent: {}
+[4.097561] (-) TimerEvent: {}
+[4.204283] (-) TimerEvent: {}
+[4.313435] (-) TimerEvent: {}
+[4.415449] (-) TimerEvent: {}
+[4.516258] (-) TimerEvent: {}
+[4.644199] (-) TimerEvent: {}
+[4.745329] (-) TimerEvent: {}
+[4.846624] (-) TimerEvent: {}
+[4.947151] (-) TimerEvent: {}
+[5.047873] (-) TimerEvent: {}
+[5.148549] (-) TimerEvent: {}
+[5.249726] (-) TimerEvent: {}
+[5.352308] (-) TimerEvent: {}
+[5.453127] (-) TimerEvent: {}
+[5.554906] (-) TimerEvent: {}
+[5.661473] (-) TimerEvent: {}
+[5.764715] (-) TimerEvent: {}
+[5.865724] (-) TimerEvent: {}
+[5.966873] (-) TimerEvent: {}
+[6.078425] (-) TimerEvent: {}
+[6.187045] (-) TimerEvent: {}
+[6.314167] (-) TimerEvent: {}
+[6.416094] (-) TimerEvent: {}
+[6.525651] (-) TimerEvent: {}
+[6.627468] (-) TimerEvent: {}
+[6.754309] (-) TimerEvent: {}
+[6.855513] (-) TimerEvent: {}
+[6.956363] (-) TimerEvent: {}
+[7.057764] (-) TimerEvent: {}
+[7.163504] (-) TimerEvent: {}
+[7.272297] (-) TimerEvent: {}
+[7.372802] (-) TimerEvent: {}
+[7.473502] (-) TimerEvent: {}
+[7.581634] (-) TimerEvent: {}
+[7.691774] (-) TimerEvent: {}
+[7.810482] (-) TimerEvent: {}
+[7.940218] (-) TimerEvent: {}
+[8.049755] (-) TimerEvent: {}
+[8.169738] (-) TimerEvent: {}
+[8.278913] (-) TimerEvent: {}
+[8.379430] (-) TimerEvent: {}
+[8.480347] (-) TimerEvent: {}
+[8.587947] (-) TimerEvent: {}
+[8.688438] (-) TimerEvent: {}
+[8.797273] (-) TimerEvent: {}
+[8.906779] (-) TimerEvent: {}
+[9.016102] (-) TimerEvent: {}
+[9.125346] (-) TimerEvent: {}
+[9.234941] (-) TimerEvent: {}
+[9.335599] (-) TimerEvent: {}
+[9.444450] (-) TimerEvent: {}
+[9.553677] (-) TimerEvent: {}
+[9.654497] (-) TimerEvent: {}
+[9.762889] (-) TimerEvent: {}
+[9.863882] (-) TimerEvent: {}
+[9.964446] (-) TimerEvent: {}
+[10.065828] (-) TimerEvent: {}
+[10.171575] (-) TimerEvent: {}
+[10.272490] (-) TimerEvent: {}
+[10.381401] (-) TimerEvent: {}
+[10.490379] (-) TimerEvent: {}
+[10.592753] (-) TimerEvent: {}
+[10.693406] (-) TimerEvent: {}
+[10.763108] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.763617] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.763759] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.763874] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.763986] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.764099] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.764219] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.764342] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.764466] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.764588] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.764701] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.764859] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/travharan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[10.764960] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/travharan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.765063] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/travharan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:30:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.765184] (my_cpp_pkg) StderrLine: {'line': b'   30 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%d + %d = %d"\x1b[m\x1b[K, a, b, \x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[10.765482] (my_cpp_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K        \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.765932] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.766085] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[10.766489] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/travharan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:30:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.766611] (my_cpp_pkg) StderrLine: {'line': b'   30 |             RCLCPP_INFO(this->get_logger(), "%d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", a, b, response->sum);\n'}
+[10.766710] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[10.766804] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.766910] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[10.767015] (my_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[10.798737] (-) TimerEvent: {}
+[10.899886] (-) TimerEvent: {}
+[11.000642] (-) TimerEvent: {}
+[11.103963] (-) TimerEvent: {}
+[11.204653] (-) TimerEvent: {}
+[11.305716] (-) TimerEvent: {}
+[11.406435] (-) TimerEvent: {}
+[11.520795] (-) TimerEvent: {}
+[11.621588] (-) TimerEvent: {}
+[11.722276] (-) TimerEvent: {}
+[11.822916] (-) TimerEvent: {}
+[11.923624] (-) TimerEvent: {}
+[12.024309] (-) TimerEvent: {}
+[12.133904] (-) TimerEvent: {}
+[12.243425] (-) TimerEvent: {}
+[12.362488] (-) TimerEvent: {}
+[12.471952] (-) TimerEvent: {}
+[12.582320] (-) TimerEvent: {}
+[12.691187] (-) TimerEvent: {}
+[12.801683] (-) TimerEvent: {}
+[12.910018] (-) TimerEvent: {}
+[13.020143] (-) TimerEvent: {}
+[13.129437] (-) TimerEvent: {}
+[13.230700] (-) TimerEvent: {}
+[13.334537] (-) TimerEvent: {}
+[13.438251] (-) TimerEvent: {}
+[13.547908] (-) TimerEvent: {}
+[13.657547] (-) TimerEvent: {}
+[13.766750] (-) TimerEvent: {}
+[13.884073] (-) TimerEvent: {}
+[13.996487] (-) TimerEvent: {}
+[14.105899] (-) TimerEvent: {}
+[14.225233] (-) TimerEvent: {}
+[14.230960] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[14.331096] (-) TimerEvent: {}
+[14.433572] (-) TimerEvent: {}
+[14.534481] (-) TimerEvent: {}
+[14.653129] (-) TimerEvent: {}
+[14.712984] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target add_two_ints_client\n'}
+[14.755453] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[14.756676] (-) TimerEvent: {}
+[14.863075] (-) TimerEvent: {}
+[14.898900] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[14.935421] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/travharan/ros2_ws/src/build/my_cpp_pkg'], 'cwd': '/home/travharan/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'travharan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/travharan'), ('OLDPWD', '/home/travharan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1095'), ('SYSTEMD_EXEC_PID', '1247'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2079'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/travharan/ros2_ws/src/install:/home/travharan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'travharan'), ('JOURNAL_STREAM', '8:22407'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'travharan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/travharan-vm:@/tmp/.ICE-unix/1215,unix/travharan-vm:/tmp/.ICE-unix/1215'), ('INVOCATION_ID', '49a6da7baac9419fb82468ef54cc980b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5V30M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/travharan/ros2_ws/install/my_py_pkg:/home/travharan/ros2_ws/src/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1a53b6fd-dd02-4282-9160-f68231b5da0d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/travharan/ros2_ws/src/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/travharan/ros2_ws/build/my_py_pkg:/home/travharan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/travharan/ros2_ws/install/my_cpp_pkg:/home/travharan/ros2_ws/src/install/my_cpp_pkg:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[14.953226] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.954674] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[14.956597] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[14.959000] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[14.960957] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[14.961754] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[14.962690] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[14.967531] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[14.967815] (-) TimerEvent: {}
+[14.968422] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[14.970419] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/travharan/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""\n'}
+[14.971177] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[14.971530] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[14.972845] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[14.973373] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[14.973748] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[14.974099] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[14.979394] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[14.979711] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[14.979872] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[14.980139] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[14.980265] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[14.983418] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[14.984035] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[14.985469] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[14.985627] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/travharan/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[14.987405] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[15.075408] (-) TimerEvent: {}
+[15.181111] (-) TimerEvent: {}
+[15.298875] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[15.301279] (-) TimerEvent: {}
+[15.301471] (-) EventReactorShutdown: {}

@@ -16,6 +16,8 @@ add_executable(smartphone src/smartphone.cpp)
 add_executable(number_publisher src/number_publisher.cpp)
 add_executable(number_counter src/number_counter.cpp)
 add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+add_executable(add_two_ints_client_no_oop src/add_two_ints_client_no_oop.cpp)
+add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 
 
 if(BUILD_TESTING)
@@ -36,6 +38,8 @@ ament_target_dependencies(smartphone rclcpp example_interfaces)
 ament_target_dependencies(number_publisher rclcpp example_interfaces)
 ament_target_dependencies(number_counter rclcpp example_interfaces)
 ament_target_dependencies(add_two_ints_server rclcpp example_interfaces)
+ament_target_dependencies(add_two_ints_client_no_oop rclcpp example_interfaces)
+ament_target_dependencies(add_two_ints_client rclcpp example_interfaces)
 
 install(TARGETS 
   cpp_node
@@ -44,6 +48,8 @@ install(TARGETS
   number_publisher
   number_counter
   add_two_ints_server
+  add_two_ints_client_no_oop
+  add_two_ints_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

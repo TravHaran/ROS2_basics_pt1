@@ -1,0 +1,10 @@
+[0.053s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[0.248s] [31mCMake Error at CMakeLists.txt:40:
+[0.248s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.248s]   "ament_target+dependencies".
+[0.248s] 
+[0.249s] [0m
+[0.258s] -- Configuring incomplete, errors occurred!
+[0.258s] See also "/home/travharan/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.262s] gmake: *** [Makefile:472: cmake_check_build_system] Error 1
+[0.271s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2

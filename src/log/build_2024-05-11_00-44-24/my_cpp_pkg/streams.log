@@ -1,0 +1,20 @@
+[0.022s] Invoking command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[0.070s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.315s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.856s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.057s] [31mCMake Error at CMakeLists.txt:19 (add_exectuable):
+[1.057s]   Unknown CMake command "add_exectuable".
+[1.057s] 
+[1.057s] [0m
+[1.058s] -- Configuring incomplete, errors occurred!
+[1.058s] See also "/home/travharan/ros2_ws/src/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[1.065s] gmake: *** [Makefile:472: cmake_check_build_system] Error 1
+[1.074s] Invoked command in '/home/travharan/ros2_ws/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/travharan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/travharan/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
