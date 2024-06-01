@@ -160,5 +160,5 @@ int main(int argc, char **argv)
 ### make service call from command line
 `ros2 service call <service_name> <service_datatype> <request>`
 - ex: `ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 3, b: 4}"`
-you can also remap a service name
+you can also remap a service name with --ros-args -r <service_name>:=<new_name>
 - ex: `ros2 run my_cpp_pkg add_two_ints_server --ros-args -r add_two_ints:=new_name'
